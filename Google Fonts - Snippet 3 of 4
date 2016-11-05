@@ -1,0 +1,7 @@
+//* Enqueue scripts and styles:
+add_action( 'wp_enqueue_scripts', 'wolfmoon_scripts_styles' );
+function wolfmoon_scripts_styles() {
+	wp_enqueue_script( 'wolfmoon-responsive-menu', get_bloginfo( 'stylesheet_directory' ) . '/js/responsive-menu.js', array( 'jquery' ), '1.0.0' );
+	wp_enqueue_style( 'dashicons' );
+	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Poiret+One:400,700|Courgette:400,700', array(), CHILD_THEME_VERSION );
+}
