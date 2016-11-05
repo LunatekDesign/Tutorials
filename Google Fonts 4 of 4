@@ -1,0 +1,9 @@
+/* Site Title and Description
+--------------------------------------------- */
+.site-title {
+	font-family: 'Pinyon Script', sans-serif;
+	font-size: 80px;
+	line-height: 1.5;
+	margin: 0;
+padding-left: 30px;
+}
